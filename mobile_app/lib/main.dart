@@ -4,6 +4,8 @@ import 'package:mobile_app/Pages/Profile/Profile.dart';
 import 'package:mobile_app/Pages/Social/Social.dart';
 import 'package:flutter/material.dart';
 
+import 'Pages/WelcomePage/NoAuth.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Main(),
+      home: const NoAuth(),
     );
   }
 }
